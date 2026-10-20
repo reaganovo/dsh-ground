@@ -1,0 +1,19 @@
+{
+  "name": "keystone-ground",
+  "version": "2.0.0",
+  "description": "服务器版地基：三条不变量钉在 DSH 原生接缝上（append-only 历史 / schema 摘除 / 单调否决）",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./rules": "./src/L0-rules.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": { "node": ">=22.19" },
+  "license": "MIT"
+}

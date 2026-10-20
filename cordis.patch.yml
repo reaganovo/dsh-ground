@@ -1,0 +1,6 @@
+# keystone-ground —— 服务器版地基（唯一入口插件）
+# 装配：profile 的 package.json 两处声明（dependencies + dsh.profile.bundles）
+# 回退：从 bundles 删掉重启即可（本插件不写任何 profile 文件）
+- insert:
+    - id: keystone-ground
+      name: keystone-ground
