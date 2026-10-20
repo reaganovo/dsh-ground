@@ -71,3 +71,8 @@ L0-rules  L1-hot  L2-structure  L3-trust  L4-auth  L5-cold  L6-rot  index
 1. `restrict` 摘不掉 `bash` ⇒ 红态 bash 仍能写。故意：可自救优先于绝对禁写。
 2. C14 防**意外**（幻觉/疲劳），不防**刻意**（操作者本来就有权）。
 3. memento/janitor 的数据不受 C14 保护——它们存内容，不存控制面。
+
+## 许可证
+
+[Apache License 2.0](LICENSE) —— 可商用、可闭源使用，另加专利授权并要求声明改动。
+安全类插件选它的理由：允许别人改造，但不允许悄悄改完还假装是同一个东西。

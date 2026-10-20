@@ -1,6 +1,6 @@
 {
   "name": "keystone-ground",
-  "version": "2.0.0",
+  "version": "0.1.0",
   "description": "服务器版地基：三条不变量钉在 DSH 原生接缝上（append-only 历史 / schema 摘除 / 单调否决）",
   "type": "module",
   "main": "src/index.js",
@@ -14,6 +14,26 @@
       "patch": "./cordis.patch.yml"
     }
   },
-  "engines": { "node": ">=22.19" },
-  "license": "MIT"
+  "engines": {
+    "node": ">=22.19"
+  },
+  "license": "Apache-2.0",
+  "author": "reaganovo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reaganovo/dsh-ground.git"
+  },
+  "homepage": "https://github.com/reaganovo/dsh-ground",
+  "bugs": {
+    "url": "https://github.com/reaganovo/dsh-ground/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "harness",
+    "guard",
+    "sandbox",
+    "policy",
+    "agent-safety"
+  ]
 }
